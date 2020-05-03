@@ -1,0 +1,18 @@
+type Message @model {
+  id: ID!
+  channel: String!
+  message: String!
+  user: String!
+  createdAt: String
+  localCreatedAt: String
+}
+
+type UserProfile @model {
+  id: ID!
+  isComplete: Boolean!
+  username: String!
+  preferredName: String!
+  createdAt: String
+  avatar: String
+  avatarOriginalUrl: String
+}

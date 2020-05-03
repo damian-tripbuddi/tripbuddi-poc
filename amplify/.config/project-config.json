@@ -1,0 +1,15 @@
+{
+  "projectName": "tripbuddi-poc",
+  "version": "3.0",
+  "frontend": "javascript",
+  "providers": ["awscloudformation"],
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "build",
+      "BuildCommand": "yarn build",
+      "StartCommand": "yarn start"
+    }
+  }
+}
