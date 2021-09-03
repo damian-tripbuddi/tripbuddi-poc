@@ -14,7 +14,7 @@
     "@testing-library/user-event": "^10.1.0",
     "agora-rtc-sdk": "^3.0.2",
     "aws-amplify": "^3.0.6",
-    "immer": "^6.0.3",
+    "immer": "^9.0.6",
     "konva": "5.0.3",
     "moment": "2.24.0",
     "prismic-javascript": "^2.7.1",
